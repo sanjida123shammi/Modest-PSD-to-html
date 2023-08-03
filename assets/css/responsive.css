@@ -41,20 +41,25 @@
 
 /* Mobile Responsive CSS */
 @media (min-width: 320px) and (max-width: 576px){
-	.section-title h2 { font-size: 35px; }
-
 	.item-content { padding: 17% 4%; }
-	.item-content h1 { font-size: 42px;}
+	.item-content h1 { font-size: 34px;}
+	.item-content ul li { margin-right: 10px;}
+	.btn-one { padding: 15px 20px;    font-size: 16px;}
+	.owl-theme .owl-dots, .owl-theme .owl-nav { bottom: 2%;    right: 6%;}
 
 	.about-section, .contact-section { padding: 8.5% 4% 7%; }
+	.section-title h2 { font-size: 30px; }
+	.social-info ul li a .fa { margin-right: 0;		width: 50px;    height: 50px;    font-size: 22px;    line-height: 50px;}
+	.number-list h4 { width: 50px;    height: 50px;    line-height: 50px;}
+	.about-content{ padding-left: 20px; }
 
 	.team-section { padding: 8.5% 4% 4%; }
-	.person-info h3 { font-size: 25px;}
-	.person-info p { font-size: 22px; }
 
 	.work-section { padding: 8.5% 4% 10%; }
 	.work-section .show-button { margin-top: 28px; }
 	
 	.service-section { padding: 8.5% 4% 2%; }
 	.feature-section { padding: 8.5% 4% 3%; }
+	.feature-content h3 { font-size: 20px;}
+	.feature-content p { font-size: 17px;}
 }
