@@ -1,6 +1,6 @@
 /* 
 	Theme: Modest Responsive Html Template
-	Author:
+	Author: Sanjida Shammi
 	Live URL: https://www.something.com
 
 	Primary Color: #23b7a4
@@ -390,11 +390,11 @@ header .navbar{
 	padding: 10px 31px;
 	text-align: center;
 }
-.service-item h4{
+.service-item h3{
 	margin: 40px 0 22px;
     font-size: 20px;
     font-weight: 700;
-    color: #292f36;
+    color: #62666c;
 }
 .service-item p{
 	color: #8d8f92;
@@ -413,12 +413,12 @@ header .navbar{
 	width: 100%;
 }
 .feature-content h3{
-	margin: 15% 0 5%;
-    font-size: 22px;
+	margin: 10% 0 5%;
+    font-size: 18px;
 	color: #fff;
 }
 .feature-content p{
-	font-size: 18px;
+/* 	font-size: 18px; */
 	line-height: 28px;
 	color: #cacdd0;
 }
@@ -448,6 +448,9 @@ header .navbar{
 }
 .google-map{
 	position: relative;
+}
+.google-map iframe{
+	width: 100%;
 }
 .contact-box{
 	position: absolute;

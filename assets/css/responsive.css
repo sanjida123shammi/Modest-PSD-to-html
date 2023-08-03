@@ -1,0 +1,60 @@
+/* Tablet Responsive CSS */
+@media (min-width: 576px) and (max-width: 768px),
+(min-width: 320px) and (max-width: 576px){
+	.navbar-toggler:focus { box-shadow: none; }
+	.offcanvas-title{ font-size: 26px;	font-weight: 700; }
+	.nav-link { padding: 12px;    text-align: center;    font-size: 18px; }
+
+	.about-section, .contact-section { padding: 8.5% 0 7%; }
+	.about-section h2 { margin-bottom: 0px; }
+	.about-section p { margin-bottom: 25px;    line-height: 32px; }
+	.about-section .social-info ul { margin: 2% 0 12%;    text-align: center; }
+	.about-content h3 { margin-bottom: 5px; }
+	.social-info ul li a .fa { margin-right: 2px; }
+
+	.team-section { padding: 8.5% 0 4%; }
+	.team-member { margin-bottom: 10%; }
+	.team-member .social-area { top: 26%; }
+	.social-area ul li a .fa { width: 50px;    height: 50px;    font-size: 22px;    line-height: 50px; }
+
+	.work-section { padding: 8.5% 0 10%; }
+
+	.service-section { padding: 8.5% 0 2%; }
+	.service-item { margin: 0 0 26px;    padding: 10px 15px; }
+	.service-item h3 { margin: 40px 0 12px; }
+	.service-item p { font-size: 17px;    line-height: 28px;}
+
+	.feature-section { padding: 8.5% 0 3%; }
+	.feature-img { margin-top: 3%; }
+	.feature-content h3 { margin: 7% 0 2%;    font-size: 22px;    font-weight: 700;    letter-spacing: 0.6px;}
+	.feature-content p { margin-bottom: 10%;	 font-size: 18px; }
+
+	.contact-content h3 { margin: 45px 0 0; }
+	.contact-box { position: initial;	border: 2px solid #eaeef1;	    margin-top: 5%;    padding: 0 28px 25px;    width: 100%; }
+	.send-box{ text-align: center; }
+
+	footer p{ margin-bottom: 6%;	text-align: center; }
+	.social-media{ text-align: center; }
+	.social-media ul li a {    font-size: 25px; }
+}
+
+
+/* Mobile Responsive CSS */
+@media (min-width: 320px) and (max-width: 576px){
+	.section-title h2 { font-size: 35px; }
+
+	.item-content { padding: 17% 4%; }
+	.item-content h1 { font-size: 42px;}
+
+	.about-section, .contact-section { padding: 8.5% 4% 7%; }
+
+	.team-section { padding: 8.5% 4% 4%; }
+	.person-info h3 { font-size: 25px;}
+	.person-info p { font-size: 22px; }
+
+	.work-section { padding: 8.5% 4% 10%; }
+	.work-section .show-button { margin-top: 28px; }
+	
+	.service-section { padding: 8.5% 4% 2%; }
+	.feature-section { padding: 8.5% 4% 3%; }
+}
