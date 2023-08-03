@@ -172,7 +172,7 @@ header .navbar{
 /* About Section */
 .about-section{
 	border-bottom: 3px solid #dde1e4;
-	padding: 4.5% 0 5%;
+	padding: 4% 0 3.9%;
 }
 .about-section h2{
 	margin-bottom: 18px;
@@ -229,7 +229,7 @@ header .navbar{
 
 /* Team Section */
 .team-section{
-	padding: 4.5% 0 5%;
+	padding: 4% 0 4.5%;
 }
 .team-section h2{
 	margin-bottom: 2.5%;
@@ -309,7 +309,7 @@ header .navbar{
 /* Work Section */
 .work-section{
 	background: #3a454d;
-	padding: 4.5% 0 5%;
+	padding: 4% 0 4.5%;
 }
 .work-section h2{
 	margin-bottom: 2%;
@@ -380,7 +380,7 @@ header .navbar{
 
 /* Service Section */
 .service-section{
-	padding: 4.5% 0 5%;
+	padding: 4% 0 2.5%;
 }
 .service-content{
 	margin: 30px 0 0;
@@ -404,7 +404,7 @@ header .navbar{
 /* Feature Section */
 .feature-section{
 	background: #3a454d;
-	padding: 4.5% 0 5%;
+	padding: 4% 0 3.75%;
 }
 .feature-section h2{
 	margin-bottom: 2%;
@@ -426,7 +426,7 @@ header .navbar{
 
 /* Contact Section */
 .contact-section{
-	padding: 4.5% 0 5%;
+	padding: 4% 0;
 }
 .contact-section h2{
 	margin-bottom: 2%;
