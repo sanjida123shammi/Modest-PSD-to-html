@@ -41,6 +41,9 @@
 
 /* Mobile Responsive CSS */
 @media (min-width: 320px) and (max-width: 576px){
+	.section-title h2 { font-size: 30px; }
+	.title-border-dark::before, .title-border-light::before { top: 1px;}
+
 	.item-content { padding: 17% 4%; }
 	.item-content h1 { font-size: 34px;}
 	.item-content ul li { margin-right: 10px;}
@@ -48,7 +51,6 @@
 	.owl-theme .owl-dots, .owl-theme .owl-nav { bottom: 2%;    right: 6%;}
 
 	.about-section, .contact-section { padding: 8.5% 4% 7%; }
-	.section-title h2 { font-size: 30px; }
 	.social-info ul li a .fa { margin-right: 0;		width: 50px;    height: 50px;    font-size: 22px;    line-height: 50px;}
 	.number-list h4 { width: 50px;    height: 50px;    line-height: 50px;}
 	.about-content{ padding-left: 20px; }
